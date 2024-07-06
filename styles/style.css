@@ -110,7 +110,7 @@ main{
 .about-me{
     background-color: #fff;
     width:827px;
-    height:290px;
+    height:290p757575x;
     margin: auto;
     border: 1px solid black;
     padding: 10px;
@@ -121,7 +121,7 @@ main{
     font-weight: 700;
 }
 .about-me>.description{
-    font-size: 22px;
+    font-size: 20px;
 }
 .info-title{
     font-size: 20px;
@@ -140,7 +140,36 @@ main{
     justify-content: space-around;
     margin-top: 6px;
 }
-section{
+.bg{
     background-color: #FFF8F3;
     padding: 130px 160px;
+    margin-bottom: 130px;
+}
+/* Skills for style */
+.skills>.title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.skills >.description{
+    width:900px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.box{
+    width:200px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 5px #b9b9b9;
+}
+.box>.title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.skill-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
 }
